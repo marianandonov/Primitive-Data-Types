@@ -1,0 +1,13 @@
+using System;
+
+namespace HexadecimalFormat
+{
+    class HexadecimalFormat
+    {
+        static void Main()
+        {
+            int number = 0x100;
+            Console.WriteLine(number);
+        }
+    }
+}
