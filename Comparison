@@ -1,0 +1,23 @@
+using System;
+
+namespace Comparison
+{
+    class Comparison
+    {
+        static void Main(string[] args)
+        {
+            float number1 = 15.000076f;
+            double number2 = 15.0000765123;
+
+            if(Math.Abs(number1 - number2) < 0.000001)
+            {
+                Console.WriteLine(true);
+            }
+            else
+            {
+                Console.WriteLine(false);
+            }
+
+        }
+    }
+}
