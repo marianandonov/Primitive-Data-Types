@@ -1,0 +1,15 @@
+using System;
+
+namespace QuotedString
+{
+    class QuotedString
+    {
+        static void Main(string[] args)
+        {
+            string noQuote = "The use of quotations causes difficulties.";
+            string quoted = "The \"use\" of quotations causes difficulties.";
+
+            Console.WriteLine(noQuote + "\n" + quoted);
+        }
+    }
+}
