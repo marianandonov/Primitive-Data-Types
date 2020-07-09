@@ -1,0 +1,29 @@
+using System;
+
+namespace Gender
+{
+    class Gender
+    {
+        static void Main(string[] args)
+        {
+            bool isMale = false;
+            while (true)
+            {
+                Console.Write("What's your gender?: ");
+                string gender = Console.ReadLine();
+                if (gender.ToLower().Equals("male"))
+                {
+                    isMale = true;
+                    break;
+                } else if (gender.ToLower().Equals("female"))
+                {
+                    break;
+                } else
+                {
+                    Console.WriteLine("Invalid gender!");
+                }
+            }
+            Console.WriteLine("Is your gender male?: " + isMale);
+        }
+    }
+}
