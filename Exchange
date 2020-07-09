@@ -1,0 +1,23 @@
+using System;
+
+namespace Exchange
+{
+    class Exchange
+    {
+        static void Main()
+        {
+            int number1 = 5;
+            int number2 = 10;
+
+            Console.WriteLine("Before exchange: \nNumber 1: " + number1
+                + "\nNumber 2: " + number2);
+
+            int temp = number2;
+            number2 = number1;
+            number1 = temp;
+
+            Console.WriteLine("After exchange: \nNumber 1: " + number1
+                + "\nNumber 2: " + number2);
+        }
+    }
+}
