@@ -1,0 +1,23 @@
+using System;
+
+namespace Heart
+{
+    class Heart
+    {
+        static void Main()
+        {
+            Console.WriteLine("   ooo   ooo   ");
+            Console.WriteLine("  o   o o   o  ");
+            Console.WriteLine(" o     o     o ");
+            Console.WriteLine("o             o");
+            Console.WriteLine("o             o");
+            Console.WriteLine(" o           o ");
+            Console.WriteLine("  o         o  ");
+            Console.WriteLine("   o       o   ");
+            Console.WriteLine("    o     o    ");
+            Console.WriteLine("     o   o     ");
+            Console.WriteLine("      o o      ");
+            Console.WriteLine("       o       ");
+        }
+    }
+}
