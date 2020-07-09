@@ -1,0 +1,27 @@
+using System;
+
+namespace Company
+{
+    class Company
+    {
+        static void Main()
+        {
+            string firstName = "Boqn";
+            string lastName = "Ivanov";
+            byte age = 34;
+            bool isMale = true;
+            int number = 3585484;
+
+            Console.Write("My name is " + firstName + " " + lastName
+                + ". I'm " + age + " years old. ");
+            if(isMale == true)
+            {
+                Console.Write("I'm a male. ");
+            } else
+            {
+                Console.Write("I'm a female. ");
+            }
+            Console.WriteLine("My serial number is " + number + ".");
+        }
+    }
+}
