@@ -1,0 +1,16 @@
+using System;
+
+namespace Unicode
+{
+    class Unicode
+    {
+        static void Main()
+        {
+            char symbol = 'H';
+            Console.WriteLine((int)symbol);
+
+            int number = 72;
+            Console.WriteLine((char)number);
+        }
+    }
+}
