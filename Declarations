@@ -1,0 +1,30 @@
+using System;
+
+namespace Declaration
+{
+    class Declaration
+    {
+        static void Main()
+        {
+            ushort num1 = 52130;
+            sbyte num2 = -115;
+            int num3 = 4825932;
+            sbyte num4 = 97;
+            short num5 = -10000;
+            short num6 = 20000;
+            byte num7 = 224;
+            uint num8 = 970700000;
+            sbyte num9 = 112;
+            sbyte num10 = -44;
+            int num11 = -1000000;
+            short num12 = 1990;
+            long num13 = 123456789123456789;
+
+
+            double number14 = 34.567839023;
+            float number15 = 12.345f;
+            double number16 = 8923.1234857;
+            decimal number17 = 3456.091124875956542151256683467m;
+        }
+    }
+}
